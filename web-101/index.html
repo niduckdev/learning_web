@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <a href="user.html">Go to User management</a>
+
+    <div class="container">
+
+        <h1 class="header">Register form</h1>
+
+        <div class="flex">
+            <div class="header-form">ชื่อจริง</div>
+            <input class="form" type="text" name="firstname">
+        </div>
+        
+        <div class="flex">
+            <div class="header-form">นามสกุล</div>
+            <input class="form" type="text" name="lastname">
+        </div>
+        
+        <div class="flex">
+            <div class="header-form">อายุ</div>
+            <input class="form" type="number" name="age">
+        </div>
+       
+
+        <div class="flex gender form">
+            <div class="header-form">
+                เพศ
+            </div>
+            <div class="flex">
+                <div>
+                    <input type="radio" name="gender" value="ชาย">ชาย
+                </div>
+                <div>
+                    <input type="radio" name="gender" value="หญิง">หญิง
+                </div>
+                <div>
+                    <input type="radio" name="gender" value="ไม่ระบุ">ไม่ระบุ
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            สิ่งที่สนใจ
+            <div>
+                <input type="checkbox" name="interests" value="หนังสือ">หนังสือ
+            </div>
+            <div>
+                <input type="checkbox" name="interests" value="การเมือง">การเมือง
+            </div>
+            <div>
+                <input type="checkbox" name="interests" value="เกม">เกม
+            </div>
+        </div>
+        <div class="form">
+            คำอธิบายตัวตนเพิ่มเติม
+            <div>
+                <textarea name="description" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <div class="form center">
+            <a href="https://shopee.com">T&C</a>
+        </div>
+        
+        <div class="message" id="message"></div>
+        <div class="center">
+            <button onclick="submitData()" class="button">ส่งข้อมูล</button>
+        </div>        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> <!-- เพิ่ม script axios เข้ามา-->
+    <script src="index.js"></script>
+
+
+
+</body>
+
+</html>
