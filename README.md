@@ -6,6 +6,7 @@
 
 ## Web development 101
 
+https://github.com/niduckdev/learning_web/tree/main/web-101
 เรียนรู้เกี่ยวกับการทำเว็บแบบภาพรวมตั้งแต่ frontend, backend, และการเชื่อมต่อ database จากช่อง Mikelopster ศึกษาจาก https://www.youtube.com/playlist?list=PLwZ0y9k-cYXCSSU3ujBqBWMbtZcW2OGkA
 
 สิ่งที่ทำ 
